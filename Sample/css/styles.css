@@ -1,0 +1,232 @@
+body{
+	background-color: #20ABDE;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+#navig{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+#logo{
+	background: url("../Images/Logo3.jpg") no-repeat;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+.navbar-brand{
+	margin-top: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	font-family: helvetica;
+	color: #3FC35A;
+	font-weight: bold;
+	margin-top: 25px;
+}
+#list{
+	margin-top: 30px;
+}
+#list a{
+	text-align: center;
+	color: #F98CF3;
+}
+#list a:hover{
+	color: black;
+	text-decoration: none;
+}
+#menu{
+	background-color: #D0C0C0;
+}
+#about{
+	margin: 20px;
+	text-decoration: none;
+}
+#about > li{
+	font-size: 19px;
+}
+#lnkd{
+	margin: 20px;
+	text-decoration: none;
+}
+#lnkd > li{
+	font-size: 19px;
+}
+#email{
+	margin: 20px;
+	text-decoration: none;
+}
+#git{
+	text-decoration: none;
+	color: red;
+}
+#git:hover{
+	color: green;
+}
+#email > li{
+	font-size: 19px;
+}
+#ph{
+	margin: 20px;
+	text-decoration: none;
+}
+#ph > li{
+	font-size: 19px;
+}
+#user{
+	margin-right: 10px;
+}
+#file{
+	margin-right: 10px;
+}
+#message{
+	margin-right: 10px;
+}
+#call{
+	margin-right: 10px;
+}
+h2{
+	font-weight: bold;
+	color: #F1EF69;
+	text-shadow:  1px 1px 1px black;
+}
+h3{
+	font-weight: bold;
+	color: #F1EF69;
+	text-shadow:  1px 1px 1px black;
+	margin-bottom: 20px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+	clear: both;
+}
+@media (min-width: 1200px){
+	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	#logo{
+	background: url('../Images/Logo3.jpg') no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 5px 5px 5px 0px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#logo{
+	background: url('../Images/Logo3.jpg') no-repeat;
+	height: 200px;
+	width: 200px;
+	margin: 5px 5px 5px 0px;
+}
+}
+@media (max-width: 767px){
+	.navbar-brand p{
+	font-family: helvetica;
+	color: #3FC35A;
+	font-weight: bold;
+	margin-top: 25px;
+	font-size: 4vw;
+}
+}
+#pic3{
+	margin-bottom: 30px;
+}
+#pic1{
+	margin-bottom: 40px;
+}
+#pic2{
+	margin-bottom: 40px;
+}
+#skillsoption, #projectsoption, #workoption, #accomoption, #contactoption, #favoption{
+	height: 80px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border: 2px solid black;
+	background-color: #EC973C;
+	color: white;
+}
+#mapoption{
+	height: 300px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border: 2px solid black;
+	background-color: #EC973C;
+	color: white;
+}
+#skillsoption:hover, #projectsoption:hover, #workoption:hover, #accomoption:hover, #contactoption:hover, #favoption:hover, #mapoption:hover{
+	box-shadow: 0 1px 5px 2px black;
+}
+#skillsoption span, #projectsoption span, #workoption span, #accomoption span, #contactoption span, #favoption span{
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	text-align: center;
+	bottom: 24px;
+	right: 0;
+	width: 100%;
+}
+#mapoption span{
+	font-weight: bold;
+	font-size: 22px;
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	right: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+}
+#ab{
+	color: #F1EF69;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+#ed{
+	color: black;
+	font-weight: bold;
+}
+.myinfo p{
+	color: white;
+	text-align: justify;
+}
+.mypic{
+	margin-bottom: 40px;
+}
+.myskills p{
+	color: white;
+	text-align: justify;
+}
+.myaccom p, li{
+	color: white;
+	text-align: justify;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 62px;
+  background-color: #76D86D;
+}
+.footer p{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
