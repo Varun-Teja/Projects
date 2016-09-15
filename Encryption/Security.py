@@ -2,10 +2,6 @@
    Python program runs on local host, uploads, downloads, encrypts local files to google.
    Please use python 2.7.X, pycrypto 2.6.1 and Google Cloud python module '''
 
-'''VARUN TEJA (1001114660)
-   CSE 6331 Cloud Computing
-   Programming Assignment 1'''
-
 #import statements.
 import argparse
 import httplib2
