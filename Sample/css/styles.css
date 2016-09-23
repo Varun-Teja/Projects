@@ -140,13 +140,14 @@ h3{
 }
 #pic3{
 	margin-bottom: 30px;
+	border-radius: 50px;
 }
-#pic1{
+/*#pic1{
 	margin-bottom: 40px;
 }
 #pic2{
 	margin-bottom: 40px;
-}
+}*/
 #skillsoption, #projectsoption, #workoption, #accomoption, #contactoption, #favoption{
 	height: 80px;
 	width: 100%;
